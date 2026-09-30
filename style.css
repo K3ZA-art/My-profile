@@ -11,6 +11,7 @@ h1{
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
+    text-align: top;
 }
 p{
     font-size: 30px;
@@ -27,9 +28,14 @@ h2{
 }
 .profile-card{
     background-color: palevioletred;
-    margin: 40px;
-    padding: 50px;
-    text-align: center;
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 600px;
+    text-align: top;
+    border-radius: 17px;
+    
+    align-items: top;
+    
 }
 ul {
     line-height: 2;
@@ -48,5 +54,13 @@ button{
     margin: 20px;
     font-size: 30px;
     background-color: bisque;
+
+}
+.profile-card img{
+    size: 20px;
+    width: 150px;
+    height: 159px;
+    object-fit: cover;
+    border-radius: 50%;
 
 }
